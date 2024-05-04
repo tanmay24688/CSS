@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            width: 95%;
+            border: 2px solid black;
+            height: 40px;
+            border-radius: 20px;
+        }
+        #progress_bar{
+            background-color: blue;
+            height:40px;
+            border-radius: 18px;
+            animation: ghumakkad 2s infinite;
+        }
+        
+        @keyframes ghumakkad {
+            0%{width: 0%;}
+            /* 10%{width: 10%;}
+            30%{width: 30%;}
+            50%{width: 50%;}
+            70%{width: 70%;} */
+            /* 90%{width: 90%;} */
+            100%{width: 100%;}
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="progress_bar"></div>
+    </div>
+</body>
+</html>
